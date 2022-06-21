@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/horizontal50"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.5" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/topguideline"
+        app:layout_constraintGuide_percent="0.025" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/bottomguideline"
+        app:layout_constraintGuide_percent="0.975" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/vertical50"
+        app:layout_constraintGuide_percent="0.5" />
+
+    <EditText
+        style="@style/edittextStyle"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/horizontal50"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/vertical50"
+        android:hint="@string/editTextHint" />
+
+    <EditText
+        style="@style/edittextStyle"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/horizontal50"
+        app:layout_constraintStart_toStartOf="@id/vertical50"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:hint="@string/editTextHint" />
+
+    <TextView
+        style="@style/txtStyle"
+        app:layout_constraintTop_toBottomOf="@+id/topguideline"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:text="@string/appTitle" />
+    
+    <Button
+        android:id="@+id/btnChangeTheme"
+        app:layout_constraintBottom_toTopOf="@id/horizontal50"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:text="@string/buttonTheme"
+        style="@style/btnStyle" />
+
+    <Button
+        android:id="@+id/btnOpenDialog"
+        app:layout_constraintTop_toBottomOf="@id/horizontal50"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:text="@string/buttonDialog"
+        style="@style/btnStyle"/>
+
+    <TextView
+        android:id="@+id/dateText"
+        style="@style/txtStyle"
+        app:layout_constraintTop_toBottomOf="@+id/btnOpenDialog"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        style="@style/txtStyle"
+        app:layout_constraintBottom_toTopOf="@+id/bottomguideline"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:text="@string/goodBye" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

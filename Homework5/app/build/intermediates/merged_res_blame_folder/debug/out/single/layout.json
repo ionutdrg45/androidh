@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "C:\\Users\\draga\\.gradle\\daemon\\7.3.3\\com.example.homework5.app-mergeDebugResources-26:\\layout\\activity_main.xml",
+        "source": "C:\\Users\\draga\\.gradle\\daemon\\7.3.3\\com.example.homework5.app-main-29:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "com.example.homework5.app-mergeDebugResources-26:/layout/constrainglayout.xml",
+        "source": "com.example.homework5.app-main-29:/layout/constrainglayout.xml"
+    },
+    {
+        "merged": "com.example.homework5.app-mergeDebugResources-26:/layout/activity_first.xml",
+        "source": "com.example.homework5.app-main-29:/layout/activity_first.xml"
+    },
+    {
+        "merged": "C:\\Users\\draga\\.gradle\\daemon\\7.3.3\\com.example.homework5.app-mergeDebugResources-26:\\layout\\constrainglayout.xml",
+        "source": "C:\\Users\\draga\\.gradle\\daemon\\7.3.3\\com.example.homework5.app-main-29:\\layout\\constrainglayout.xml"
+    },
+    {
+        "merged": "C:\\Users\\draga\\.gradle\\daemon\\7.3.3\\com.example.homework5.app-mergeDebugResources-26:\\layout\\activity_shared_prefs.xml",
+        "source": "C:\\Users\\draga\\.gradle\\daemon\\7.3.3\\com.example.homework5.app-main-29:\\layout\\activity_shared_prefs.xml"
+    }
+]
