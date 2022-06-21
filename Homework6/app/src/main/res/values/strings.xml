@@ -1,0 +1,10 @@
+<resources>
+    <string name="buttonTheme">Change theme</string>
+    <string name="buttonDialog">Open date dialog</string>
+    <string name="appTitle">Homework 6!</string>
+    <string name="goodBye">GoodBye!</string>
+    <string name="toastNightOnMessage">The nightmode was turned on.</string>
+    <string name="toastNightOffMessage">The nightmode was turned off.</string>
+    <string name="dateFormat">%1$s/%2$s/%3$s</string>
+    <string name="editTextHint">Write anything</string>
+</resources>

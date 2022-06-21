@@ -1,0 +1,10 @@
+<resources>
+    <string name="buttonTheme">Schimba tema</string>
+    <string name="buttonDialog">Deschide dialog data</string>
+    <string name="appTitle">Tema 6!</string>
+    <string name="goodBye">La revedere!</string>
+    <string name="toastNightOnMessage">Nightmode-ul a fost activat.</string>
+    <string name="toastNightOffMessage">Nightmode-ul a fost dezactivat.</string>
+    <string name="dateFormat">%1$s/%2$s/%3$s</string>
+    <string name="editTextHint">Scrie orice</string>
+</resources>
