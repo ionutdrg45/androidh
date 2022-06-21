@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="sm1">5dp</dimen>
+    <dimen name="sm2">10dp</dimen>
+    <dimen name="sm3">15dp</dimen>
+    <dimen name="md1">20dp</dimen>
+    <dimen name="md2">25dp</dimen>
+    <dimen name="md3">30dp</dimen>
+    <dimen name="lg1">35dp</dimen>
+    <dimen name="lg2">35dp</dimen>
+    <dimen name="lg3">35dp</dimen>
+    <dimen name="tsm">10sp</dimen>
+    <dimen name="tsm2">15sp</dimen>
+    <dimen name="tmd">20sp</dimen>
+    <dimen name="tmd2">25sp</dimen>
+    <dimen name="tlg">30sp</dimen>
+    <dimen name="tlg2">35sp</dimen>
+</resources>
